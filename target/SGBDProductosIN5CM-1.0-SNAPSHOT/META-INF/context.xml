@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/SGBDProductosIN5CM"/>
-<Resource name="jdbc/SGDBProductosIN5CM" auth="Container" type="javax.sql.DataSource"
-               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
-               username="alejandroCuxun" password="Ahernandez07@" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://localhost:3306/SGDBProductos2023518?serverTimezone=GMT-6"/>
+<Context path="/SGBDProductosIN5CM">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/SGBDProductos2023518" password="Ahernandez07@" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/SGBDProductos2023518?serverTimezone=GMT-6" username="alejandroCuxun"/>
+</Context>

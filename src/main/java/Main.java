@@ -5,15 +5,6 @@ import java.util.List;
 import org.alejandrocuxun.webapp.model.Producto;
 import org.alejandrocuxun.webapp.util.JpaUtil;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author informatica
- */
 public class Main {
     private static EntityManager em = JpaUtil.getEntityManager();
     

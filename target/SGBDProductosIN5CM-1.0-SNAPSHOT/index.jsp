@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 17/07/2024, 09:35:21
-    Author     : informatica
---%>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,66 +21,20 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="formulario-productos/formulario-productos.html">Form Productos</a>
+                  <a class="nav-link" href="./formulario-productos/formulario-productos.jsp">Form Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="lista-productos/lista-productos.html">Lista Productos</a>
+                    <a class="nav-link active" aria-current="page" href="./producto-servlet/">Lista Productos</a>
                   </li>
               </ul>
             </div>
           </div>
         </div>
     </nav>
- 
-    <div>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Sitio web
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Bienvenidos al sistema de gestion de inventarios,</strong> El sitio web consiste en el almacenamiento de productos y almacenarlo de
-                  de una optima manera.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Funcionamiento del form
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Formulario de un inventario de productos.</strong> el formulario como cualquier otro se te pediran cierto tipo de infacion como por ejemplo:
-                  (nombre, descripcion, marca y precio). La informacion es de mucha vitalidad ya que con esto se podra completar un inventario de los producto que ofrece la empresa.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Inventario
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Inventario de los productos.</strong> El inventario presenta una serie de tabla en las cuales se presentaran los productos, el fin de hacer estas tablas
-                  es tratar de hacer de una manera optima y ordenada de ofrecer la informacion hacia los clientes
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
- 
     <img class="position absolute" width="45%"  alt="kinal.jpg" src="assits/kinal.jpg">
- 
     <hr>
     <footer>
         <p>Alejandro Cuxún 2024&copy;</p>

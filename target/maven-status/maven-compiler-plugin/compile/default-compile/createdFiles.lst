@@ -1,0 +1,6 @@
+Main.class
+org\alejandrocuxun\webapp\service\ProductoService.class
+org\alejandrocuxun\webapp\model\Producto.class
+org\alejandrocuxun\webapp\service\IProductoService.class
+org\alejandrocuxun\webapp\servlet\ProductoServlet.class
+org\alejandrocuxun\webapp\util\JpaUtil.class
